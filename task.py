@@ -6,7 +6,7 @@ def shortest_routes(n, routes):
     for i in range(len(routes)):
         graph[(routes[i][0], routes[i][1])] = routes[i][2]
 
-    print(graph)
+
 
 
     path_lengths = {v: float('inf') for v in list_of_cities}
